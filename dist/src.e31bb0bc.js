@@ -24395,7 +24395,7 @@ function (_Component) {
         src: _profile.default,
         alt: "profile",
         className: "profile"
-      }), _react.default.createElement("h1", null, "Hello!"), _react.default.createElement("p", null, "My name is James. I'm a Software Engineer"), _react.default.createElement("p", null, "I'm always looking for more meaningful projects"), this.state.displayBio ? _react.default.createElement("div", null, _react.default.createElement("p", null, "I live in San Carlos, I code everyday."), _react.default.createElement("p", null, "My favorite language is JS, I think React JS is an excellent framework to have in one's toolbelt."), _react.default.createElement("p", null, "Besides coding, I like photography and skateboarding."), _react.default.createElement("button", {
+      }), _react.default.createElement("h1", null, "Hello!"), _react.default.createElement("p", null, "My name is James. I'm a Front-end Developer"), _react.default.createElement("p", null, "I'm always looking for more meaningful projects"), this.state.displayBio ? _react.default.createElement("div", null, _react.default.createElement("p", null, "I live in San Carlos, I write code after work everyday."), _react.default.createElement("p", null, "My favorite language is JS, I think React JS is an excellent framework to have in one's toolbelt."), _react.default.createElement("p", null, "When I'm not coding, I'm an Electrician, Wildlife Photographer and Skateboarder."), _react.default.createElement("button", {
         onClick: this.toggleDisplayBio
       }, "Show Less")) : _react.default.createElement("div", null, _react.default.createElement("button", {
         onClick: this.toggleDisplayBio
@@ -24521,7 +24521,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "50155" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "50890" + '/');
 
   ws.onmessage = function (event) {
     var data = JSON.parse(event.data);
