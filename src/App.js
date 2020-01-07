@@ -16,14 +16,14 @@ render () {
     return (
         <div>
             <img src={profile} alt = 'profile' className='profile' />
-            <h1>Hello!</h1>
+            <h1>Hi!</h1>
             <p>My name is James. I'm a Front-end Developer</p>
             <p>I'm always looking for more meaningful projects</p>
             {this.state.displayBio ?(
         <div>
-            <p>I live in San Carlos, I write code after work everyday.</p>
+            <p>I live in San Carlos and work all over the bay area.</p>
             <p>My favorite language is JS, I think React JS is an excellent framework to have in one's toolbelt.</p>
-            <p>When I'm not coding, I'm an Electrician, Wildlife Photographer and Skateboarder.</p>
+            <p>When I'm not coding, I'm an Electrician, a Wildlife Photographer and aSkateboarder.</p>
             <button onClick={this.toggleDisplayBio}>Show Less</button>
         </div>
     ) : (
