@@ -14,7 +14,7 @@ const PROJECTS = [
     id: 2,
     title: 'My API',
     description: 'A REST API that I built from scratch with GET and POST requests!',
-    link: 'https://lawson2017.github.io/Portfolio032818/bookFinder.html',
+    link: 'https://github.com/lawson2017',
     image: project2
   },
   {
