@@ -24052,7 +24052,7 @@ var PROJECTS = [{
   id: 2,
   title: 'My API',
   description: 'A REST API that I built from scratch with GET and POST requests!',
-  link: 'https://github.com/lawson2017',
+  link: 'https://lawson2017.github.io/Portfolio032818/bookFinder.html',
   image: _project2.default
 }, {
   id: 3,
@@ -24521,7 +24521,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "61028" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "51967" + '/');
 
   ws.onmessage = function (event) {
     var data = JSON.parse(event.data);
